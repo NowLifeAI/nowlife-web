@@ -1,2 +1,2 @@
 # nowlife-web
-Site institucional da Almeplan — Planejamento, gerenciamento de projetos e controle de custos.
+Site institucional oficial da plataforma NowLife.
