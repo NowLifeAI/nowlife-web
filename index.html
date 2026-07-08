@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -8,37 +9,150 @@
 
 <style>
 
-body{
+*{
 margin:0;
-background:#081327;
-font-family:Arial;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+
+background:linear-gradient(180deg,#071223,#0B1832);
+
+font-family:Arial,Helvetica,sans-serif;
+
 color:white;
+
 display:flex;
 justify-content:center;
 align-items:center;
-height:100vh;
+
+min-height:100vh;
+
+padding:30px;
+
+}
+
+.container{
+
+max-width:700px;
+
 text-align:center;
+
+}
+
+.logo{
+
+width:120px;
+
+margin-bottom:30px;
+
 }
 
 h1{
-font-size:60px;
-margin-bottom:10px;
+
+font-size:56px;
+
+margin-bottom:20px;
+
+}
+
+h2{
+
+font-size:34px;
+
+color:#1FC8FF;
+
+margin-bottom:25px;
+
+line-height:1.3;
+
 }
 
 p{
-font-size:22px;
-color:#cfd8dc;
+
+font-size:21px;
+
+color:#D9E3EC;
+
+line-height:1.7;
+
+margin-bottom:35px;
+
 }
 
-button{
-margin-top:30px;
-padding:18px 35px;
-border:none;
-border-radius:12px;
-font-size:18px;
-background:#00C2FF;
+.botao{
+
+display:inline-block;
+
+background:#18BFFF;
+
 color:white;
-cursor:pointer;
+
+padding:18px 40px;
+
+border-radius:12px;
+
+text-decoration:none;
+
+font-size:20px;
+
+font-weight:bold;
+
+transition:.3s;
+
+}
+
+.botao:hover{
+
+background:#0EA5E9;
+
+}
+
+footer{
+
+margin-top:50px;
+
+font-size:15px;
+
+color:#8EA3B7;
+
+}
+
+@media(max-width:700px){
+
+.logo{
+
+width:95px;
+
+}
+
+h1{
+
+font-size:42px;
+
+}
+
+h2{
+
+font-size:28px;
+
+}
+
+p{
+
+font-size:18px;
+
+}
+
+.botao{
+
+width:100%;
+
+padding:18px;
+
+}
+
 }
 
 </style>
@@ -47,17 +161,33 @@ cursor:pointer;
 
 <body>
 
-<div>
+<div class="container">
+
+<img src="logo.png" class="logo" alt="NowLife AI">
 
 <h1>NowLife AI</h1>
 
+<h2>Organizar sua vida digital deveria ser simples.</h2>
+
 <p>
-Sua vida merece ser encontrada em segundos.
+
+Estamos construindo uma nova experiência para ajudar pessoas e famílias a encontrarem, organizarem e acessarem informações importantes de forma simples, inteligente e segura.
+
+Cadastre-se para receber novidades e tenha acesso antecipado à primeira versão da NowLife AI.
+
 </p>
 
-<button>
-Em breve
-</button>
+<a class="botao" href="https://tally.so/r/2E5YGL">
+
+Entrar na lista de espera
+
+</a>
+
+<footer>
+
+contato@nowlife.ai
+
+</footer>
 
 </div>
 
